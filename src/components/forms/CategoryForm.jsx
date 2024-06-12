@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+
 // We received all the values such as name, setName, handleCategorySubmit here and this means that the value changes itself to name for example
 const CategoryForm = ({ handleCategorySubmit, value, setValue, setModal }) => {
     return (

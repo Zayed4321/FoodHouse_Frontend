@@ -3,8 +3,8 @@ import Layout from '../../components/Layout/Layout'
 import AdminMenu from '../../components/AdminMenu'
 import { toast } from 'react-toastify';
 import axios from 'axios';
-import CategoryForm from '../../components/forms/categoryForm';
-import { Button, Modal } from 'antd';
+import CategoryForm from "../../components/forms/CategoryForm";
+import { Modal } from 'antd';
 
 const CreateCategory = () => {
 
