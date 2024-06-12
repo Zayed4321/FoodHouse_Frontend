@@ -1,0 +1,57 @@
+.forgot__pass {
+    padding-block: 225px;
+    height: 100vh;
+}
+
+.forgotPass__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: var(--h2-font-size);
+}
+
+.forgotPass__form {
+    position: relative;
+    left: 35%;
+    width: 30%;
+}
+
+.form__input {
+    margin-bottom: 40px;
+}
+
+.form__control {
+    border: 1px solid var(--container-color);
+    background-color: var(--container-color);
+    color: var(--title-color);
+    width: 100%;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: var(--small-font-size);
+    transition: all 0.3s ease;
+}
+
+.form__control:focus {
+    border-color: var(--first-color);
+}
+
+.forgotPass__button_box {
+    display: flex;
+    justify-content: center;
+}
+
+.forgotPass__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--first-color);
+    color: var(--text-white);
+    border: 1px solid var(--first-color);
+    padding: 15px 10px 15px 10px;
+    border-radius: 35px;
+    font-family: var(--second-font);
+    font-size: var(--large-font-size);
+    font-weight: var(--weight-500);
+    width: 50%;
+}

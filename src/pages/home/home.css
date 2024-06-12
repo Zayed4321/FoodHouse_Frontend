@@ -1,0 +1,64 @@
+.home {
+    align-items: center;
+}
+
+.bg {
+    background-image: url(../../assets/FoodBackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+}
+
+.login__box {
+    background-color: white;
+    width: 20%;
+    position: relative;
+    top: 40%;
+    left: 40%;
+    padding: 10px 20px;
+}
+
+.site__name {
+    color: var(--first-color);
+}
+
+.form__control {
+    border: 1px solid var(--container-color);
+    background-color: var(--container-color);
+    color: var(--title-color);
+    width: 100%;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: var(--small-font-size);
+    transition: all 0.3s ease;
+}
+
+.login__button_box {
+    display: flex;
+    justify-content: center;
+}
+
+.login__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--first-color) !important;
+    color: var(--text-white);
+    border: 1px solid var(--first-color);
+    border-radius: 35px;
+    font-family: var(--second-font);
+    font-size: var(--large-font-size);
+    font-weight: var(--weight-500);
+    width: 60%;
+    padding: 3px 0;
+    margin-left: 20%;
+}
+
+.form__register {
+    text-align: center;
+}
+
+.form__register span {
+    color: var(--first-color);
+}

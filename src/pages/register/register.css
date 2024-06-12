@@ -1,0 +1,81 @@
+.register {
+    padding-block: 80px;
+    height: 100vh;
+}
+
+.register__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.register__form {
+    position: relative;
+    left: 35%;
+    width: 30%;
+}
+
+.form__input {
+    margin-bottom: 40px;
+}
+
+.form__control {
+    border: 1px solid var(--container-color);
+    background-color: var(--container-color);
+    color: var(--title-color);
+    width: 100%;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: var(--small-font-size);
+    transition: all 0.3s ease;
+}
+
+.form__control:focus {
+    border-color: var(--first-color);
+}
+
+.register__button_box {
+    display: flex;
+    justify-content: center;
+}
+
+.register__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--first-color);
+    color: var(--title-color);
+    border: 1px solid var(--first-color);
+    padding: 15px 10px 15px 10px;
+    border-radius: 35px;
+    font-family: var(--second-font);
+    font-size: var(--large-font-size);
+    font-weight: var(--weight-500);
+    width: 50%;
+}
+
+.nav__login {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--container-color);
+    color: var(--title-color);
+    border: 1px solid var(--container-color);
+    padding: 15px 10px 15px 10px;
+    border-radius: 35px;
+    font-family: var(--second-font);
+    font-size: var(--large-font-size);
+    font-weight: var(--weight-500);
+    width: 100%;
+}
+
+.nav__login span {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: var(--second-font);
+    position: relative;
+    top: 3px;
+    color: var(--first-color);
+}
